@@ -297,7 +297,7 @@ section h1 {
 #header #Pop_out #item5 #pic2 {
   background-image: url("https://images.pexels.com/photos/1858488/pexels-photo-1858488.jpeg?crop=entropy&cs=srgb&dl=pexels-jaysen-scott-1858488.jpg&fit=crop&fm=jpg&h=1629&w=1280");
   height: 22vw;
-  width: 15vw;
+  width: 18vw;
 }
 
 #header #Pop_out #item5 #pic3 {
@@ -363,9 +363,15 @@ section h1 {
 }
 
 #header #Pop_out #column .picture {
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
   margin-top: 10px;
+  -webkit-transition: all 1.3s 0s cubic-bezier(0.25, 0, 0, 1);
+  transition: all 1.3s 0s cubic-bezier(0.25, 0, 0, 1);
+}
+
+#header #Pop_out #column .picture:hover {
+  background-size: 125%;
 }
 
 #header #logo {

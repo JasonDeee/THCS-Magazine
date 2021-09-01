@@ -219,7 +219,7 @@ section {
       #pic2 {
         background-image: url("https://images.pexels.com/photos/1858488/pexels-photo-1858488.jpeg?crop=entropy&cs=srgb&dl=pexels-jaysen-scott-1858488.jpg&fit=crop&fm=jpg&h=1629&w=1280");
         height: 22vw;
-        width: 15vw;
+        width: 18vw;
       }
       #pic3 {
         background-image: url("https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?crop=entropy&cs=srgb&dl=pexels-ray-piedra-1464625.jpg&fit=crop&fm=jpg&h=1280&w=1280");
@@ -271,9 +271,13 @@ section {
         opacity: 30%;
       }
       .picture {
-        background-size: cover;
+        background-size: 100%;
         background-position: center;
         margin-top: 10px;
+        transition: all 1.3s 0s cubic-bezier(0.25, 0, 0, 1);
+      }
+      .picture:hover {
+        background-size: 125%;
       }
     }
   }
